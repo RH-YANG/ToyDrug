@@ -20,5 +20,5 @@ root.render(
 
 // axios 기본값지정 (싱글톤패턴)
 axios.defaults.baseURL = process.env.REACT_APP_API_URL;
-axios.defaults.timeout = 5000;
+// axios.defaults.timeout = 5000;
 axios.defaults.headers.common['Content-Type'] = 'application/json';
