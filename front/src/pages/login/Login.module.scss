@@ -12,6 +12,7 @@
     font-family: 'TD-Light';
     font-size: 30px;
     display: block;
+    position: relative;
 
     input {
         font-size: 20px;
@@ -19,7 +20,7 @@
         padding-left: 10px;
         width: 290px;
         height: 40px;
-        margin-top: 50px;
+        margin-top: 45px;
         margin-left: 30px;
     }
 
@@ -30,23 +31,20 @@
     span {
         font-family: 'TD-Thin';
         font-size: 16px;
+        position: absolute;
         color: red;
         display: block;
         margin-top: 10px;
-        margin-bottom: 10px;
     }
 }
 
 .label_checkbox {
     width: 430px;
     height: 100px;
-    margin: 20px;
+    margin-top: 10px;
     display: flex;
     align-items: center;
     position: relative;
-
-    // border: 1px solid black;
-
 
     span {
         font-family: 'TD-Light';
@@ -61,9 +59,7 @@
         transform: scale(3);
         position: absolute;
         right: 0;
-        accent-color: rgb(143, 167, 253);
-        // border: 2px solid #000;
-        // border-radius: 0;
+        accent-color: rgb(143, 167, 253); // 브라우저마다 정해진 스타일이 있어서 커스텀할수 있는 디자인이 한정적임
     }
 }
 
